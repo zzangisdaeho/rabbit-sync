@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ClientInitializer {
+public class Initializer {
     public static void main(String[] args) {
-        SpringApplication.run(ClientInitializer.class, args);
+        SpringApplication.run(Initializer.class, args);
     }
 }

@@ -17,7 +17,7 @@ public class RabbitConsumer {
 
     @RabbitListener(queues = RabbitConfig.QUEUE_NAME)
     public void receiveDispatch(Message message){
-
+        System.out.println("message = " + message);
 
     }
 }
