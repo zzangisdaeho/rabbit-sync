@@ -1,0 +1,4 @@
+rootProject.name = 'rabbit-sync'
+include 'rabbit-sync-client'
+include 'rabbit-sync-server'
+
